@@ -1,0 +1,8 @@
+listeners:
+  - "0.0.0.0:21139"
+  - "127.0.0.1:21140"
+users:
+  - username: "abc"
+    password: "p123"
+  - username: "user2"
+    password: "p2222"

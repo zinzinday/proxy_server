@@ -1,0 +1,8 @@
+# Deny all other files
+/*
+
+# Allow README.md and .gitignore
+!/README.md
+!/.gitignore
+!dist
+

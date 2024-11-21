@@ -1,0 +1,13 @@
+[Unit]
+Description=Proxy Server Service
+After=network.target
+
+[Service]
+Type=simple
+User=nobody
+WorkingDirectory=/path/to/your/proxy_server_directory
+ExecStart=/path/to/your/proxy_server_directory/proxy_server
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
